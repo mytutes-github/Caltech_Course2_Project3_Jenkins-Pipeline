@@ -24,7 +24,7 @@ node {
         
     }
     
-    stage('Tomcat Dependancies') {
+    stage('Tomcat Dependencies') {
  
     sh '''echo  "mv /usr/local/tomcat/webapps /usr/local/tomcat/webapps2"  >>  script.sh
           echo  "mv /usr/local/tomcat/webapps.dist/ /usr/local/tomcat/webapps"  >>  script.sh
