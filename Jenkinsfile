@@ -5,14 +5,12 @@ node {
     def mvnHome = tool name: 'Apache_Maven_3.5.3', type: 'maven'    
     def mvnCMD = "${mvnHome}/bin/mvn"
     
-    // Temperorily suspending this stage: "Clean up"
-
-    /*
+    
     stage('Clean Up') {
 
         deleteDir()
     }   
-    */
+    
     
     stage('Git Checkout') {
  
